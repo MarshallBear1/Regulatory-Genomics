@@ -1,0 +1,10 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+1	SGBAHTBDWAGDTYCHCBCCABAG	range=chr17	43126180	43126203	+	29.6667	2.62e-11	3.3e-08	CGCACTCGTAGTTCCACCCCTCAG
+1	SGBAHTBDWAGDTYCHCBCCABAG	range=chr17	43126363	43126386	+	28.5939	9.01e-11	5.67e-08	CGCCATGTTAGATTCACCCCACAG
+1	SGBAHTBDWAGDTYCHCBCCABAG	range=chr17	43125835	43125858	+	27.6667	2.33e-10	9.78e-08	CGGAATGAAAGGTCTTCGCCACAG
+1	SGBAHTBDWAGDTYCHCBCCABAG	range=chr17	43125880	43125903	-	24.4848	3.75e-09	1.18e-06	GGTATTGGATGTTCCTCTCCATAA
+1	SGBAHTBDWAGDTYCHCBCCABAG	range=chr17	43126044	43126067	-	22.8182	1.36e-08	3.43e-06	GGGAATTGTAGTCTCCCTAAAGAG
+
+# FIMO (Find Individual Motif Occurrences): Version 5.5.5 compiled on Dec  6 2023 at 19:32:37
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html#tsv_results.
+# fimo --oc . --verbosity 1 --bgfile --nrdb-- --thresh 1.0E-4 motifs.meme sequences.fa
